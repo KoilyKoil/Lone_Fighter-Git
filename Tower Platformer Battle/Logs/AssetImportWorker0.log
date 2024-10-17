@@ -1,0 +1,1039 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 22022 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Koil/Desktop/Workshop/Handmade/Games/WorkShop/Castle Smasher/Tower Platformer Battle
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56110
+Successfully changed project path to: C:/Users/Koil/Desktop/Workshop/Handmade/Games/WorkShop/Castle Smasher/Tower Platformer Battle
+C:/Users/Koil/Desktop/Workshop/Handmade/Games/WorkShop/Castle Smasher/Tower Platformer Battle
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 361.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Koil/Desktop/Workshop/Handmade/Games/WorkShop/Castle Smasher/Tower Platformer Battle/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     11011 MB
+    Driver:   31.0.101.5081
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.043222 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 322.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.256 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2257ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1581ms)
+			LoadAssemblies (239ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (950ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (152ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (323ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (329ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.072402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Koil\Desktop\Workshop\Handmade\Games\WorkShop\Castle Smasher\Tower Platformer Battle\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Koil\Desktop\Workshop\Handmade\Games\WorkShop\Castle Smasher\Tower Platformer Battle\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 310.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Koil\Desktop\Workshop\Handmade\Games\WorkShop\Castle Smasher\Tower Platformer Battle\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to: Method not found: void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+Mono: successfully reloaded assembly
+- Completed reload, in  6.933 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6935ms)
+		BeginReloadAssembly (3566ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3246ms)
+		EndReloadAssembly (3017ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (263ms)
+			SetupLoadedEditorAssemblies (1537ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (311ms)
+				BeforeProcessingInitializeOnLoad (391ms)
+				ProcessInitializeOnLoadAttributes (637ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (161.1 KB). Loaded Objects now: 4849.
+Memory consumption went from 164.7 MB to 164.5 MB.
+Total: 8.848400 ms (FindLiveObjects: 0.489500 ms CreateObjectMapping: 0.312000 ms MarkObjects: 7.673900 ms  DeleteObjects: 0.370000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2367646.479232 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab
+  artifactKey: Guid(d0a86346e04015245ae6126e465b87c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentPalette_HeroKnight.prefab using Guid(d0a86346e04015245ae6126e465b87c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c277bec9fe34408031ce47ff09e9373c') in 0.313737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001519 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(4)
+  artifactKey: Guid(aeb6c5580c8f9d141aabad7a1624bf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(4) using Guid(aeb6c5580c8f9d141aabad7a1624bf9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784c8d036e780412216ecd1069d81a27') in 0.006672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015230 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/LeftBlackButton.prefab
+  artifactKey: Guid(c8fcdb537d37ee14c8257ffa2625a06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/LeftBlackButton.prefab using Guid(c8fcdb537d37ee14c8257ffa2625a06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7deb225a17f4cb4762ae19417b291b2a') in 0.028819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009246 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons
+  artifactKey: Guid(977ff8a7093735b42a3e8999a97c4d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons using Guid(977ff8a7093735b42a3e8999a97c4d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c49f0d95465381e7a852246089e76b') in 0.008490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004143 seconds.
+  path: Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeOut.anim
+  artifactKey: Guid(2216370c9b5170544b59baa4047c1611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeOut.anim using Guid(2216370c9b5170544b59baa4047c1611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b328445edf22c9a3760ec6b4894e9478') in 0.013884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackPlayButton
+  artifactKey: Guid(7fda989895a5b854fa290fdf641f95cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackPlayButton using Guid(7fda989895a5b854fa290fdf641f95cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72957385eda8f77fdf93504fabe4140') in 0.006788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028164 seconds.
+  path: Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashIN.controller
+  artifactKey: Guid(19e31f9c7899b4c4fa33d0f46419db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashIN.controller using Guid(19e31f9c7899b4c4fa33d0f46419db92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4bff36d0a2ffa437a7339669ee4c72') in 0.014056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040694 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim
+  artifactKey: Guid(0bafac48b1090284da2048c29bc986ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack1.anim using Guid(0bafac48b1090284da2048c29bc986ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c853f3443a588f3bcccf4e29dfb0461c') in 0.008998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashOut.controller
+  artifactKey: Guid(f48884dc8faa4de4dad511c38ede638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashOut.controller using Guid(f48884dc8faa4de4dad511c38ede638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2099df14cac1d70d3af8027c556b22') in 0.011744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002067 seconds.
+  path: Assets/Scripts/In-GameSet/Player/WinnerScreen.cs
+  artifactKey: Guid(815e7882c2f3da8448938b45f46c83d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In-GameSet/Player/WinnerScreen.cs using Guid(815e7882c2f3da8448938b45f46c83d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23929b501725f567bd6f13a6c7ec5890') in 0.014666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023405 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(3)
+  artifactKey: Guid(3948e3771651c5543a0d7627f2577c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(3) using Guid(3948e3771651c5543a0d7627f2577c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13792c339b4d4da6d75321ea1154a468') in 0.007561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sources/Animation/FW_Idle.anim
+  artifactKey: Guid(67193d6a187079b478842cef44e9cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/FW_Idle.anim using Guid(67193d6a187079b478842cef44e9cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a29ac9773ff1e6112782cafe3aae5bd') in 0.010104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012989 seconds.
+  path: Assets/EasyTransitions/Sprites
+  artifactKey: Guid(2d8170f17790cff4f9b26737ffd3537e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Sprites using Guid(2d8170f17790cff4f9b26737ffd3537e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdf0a8c879ff89e235f231fe08d5a80') in 0.010859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainOUT.prefab
+  artifactKey: Guid(404de9424d430584b8e084227960d17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainOUT.prefab using Guid(404de9424d430584b8e084227960d17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f67183b180c532495466107eee7f1a5') in 0.019483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017982 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim
+  artifactKey: Guid(3688e492878501d4882fffca4cb3bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack2.anim using Guid(3688e492878501d4882fffca4cb3bbff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcceedd4ad280e7b92c235804c06e958') in 0.012603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.078067 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainOut.anim
+  artifactKey: Guid(8b57d6e0df5815443a4effd3a1e50795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainOut.anim using Guid(8b57d6e0df5815443a4effd3a1e50795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5132dc044b993ea595eaa4b425da69') in 0.013644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010629 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalBlueButton.prefab
+  artifactKey: Guid(452f2e8b7e5708f4e9551a097c23f3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalBlueButton.prefab using Guid(452f2e8b7e5708f4e9551a097c23f3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affbfa7df85c88495c61f7b0b28f28b0') in 0.026774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(13)
+  artifactKey: Guid(bb14aa8a1c9100c428cce7df17c0499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(13) using Guid(bb14aa8a1c9100c428cce7df17c0499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4c719610d58f293db7c0c3e1510b3e') in 0.007801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashOut.anim
+  artifactKey: Guid(1faa817d9b7bbfc40a1b4ccc1dd0c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashOut.anim using Guid(1faa817d9b7bbfc40a1b4ccc1dd0c3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce22f9383d7ff497a10e4a0919509a5') in 0.009082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027559 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(8)
+  artifactKey: Guid(2ad6f4aeafd4b544980936c0dd354582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(8) using Guid(2ad6f4aeafd4b544980936c0dd354582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ee395148f9bcbc11c7e7273e5aca9c') in 0.010349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007210 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/SmallBlackHomeButton.prefab
+  artifactKey: Guid(6b4aaa8f02b3e6d47b341f16af1fade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/SmallBlackHomeButton.prefab using Guid(6b4aaa8f02b3e6d47b341f16af1fade4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bffbbb0464f04b78084f0292f7e7bbe') in 0.016122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003651 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackOptionsButton/BlackOptionsButton.controller
+  artifactKey: Guid(30ace1a000771a74c9193d41cf9ae34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackOptionsButton/BlackOptionsButton.controller using Guid(30ace1a000771a74c9193d41cf9ae34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965302ce1003dcad42826e309b06a9d2') in 0.014112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025537 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise/NoiseOut.anim
+  artifactKey: Guid(4cff0fa04b3758f49bd878c024b7d37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise/NoiseOut.anim using Guid(4cff0fa04b3758f49bd878c024b7d37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1455e9cfaa3a2bc50ee283bb15eafcc') in 0.011456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004460 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset
+  artifactKey: Guid(932822c3aa72d6245a38fc0e08fe9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment/EnvironmentTiles_1.asset using Guid(932822c3aa72d6245a38fc0e08fe9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0a777577e7a4316b7422be70b94c39') in 0.041953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011163 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush/BrushOUT.prefab
+  artifactKey: Guid(7169acee88d38d5418744538f27d012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush/BrushOUT.prefab using Guid(7169acee88d38d5418744538f27d012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ffedaf1c64e485e39c7331942b6985') in 0.013292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(12)
+  artifactKey: Guid(55b0cafa847a32b4da18ea7bd812612a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(12) using Guid(55b0cafa847a32b4da18ea7bd812612a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bb7dc99c38fd4d3b0fdc53859a06d1') in 0.006334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003800 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -
+  artifactKey: Guid(1f557f3d1cc77b14d9bd184b532a2d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy - using Guid(1f557f3d1cc77b14d9bd184b532a2d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3567195b445b9ba9bbf245075a19d516') in 0.006143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/EasyTransitions/Transitions/DoubleWipe
+  artifactKey: Guid(8e78370eea26eba4d84f14ee57d715f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DoubleWipe using Guid(8e78370eea26eba4d84f14ee57d715f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353278637fc1be04425b1df1b9cad312') in 0.006965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim
+  artifactKey: Guid(0cfe2276959603e40904eecacdfa08fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Jump.anim using Guid(0cfe2276959603e40904eecacdfa08fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4c8f6ae34d93e9a91e93a9aa1c536d') in 0.008436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009972 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridIN.controller
+  artifactKey: Guid(2c1df7568c16b2f48b026e97a4d19eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridIN.controller using Guid(2c1df7568c16b2f48b026e97a4d19eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91daac23d239c7bbf90c8e1115aeabfc') in 0.012115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023459 seconds.
+  path: Assets/EasyTransitions/Transitions/HorizontalCurtain/HorizontalCurtainOut.anim
+  artifactKey: Guid(120bd7fcbff39174d8852eaf4d5a08f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/HorizontalCurtain/HorizontalCurtainOut.anim using Guid(120bd7fcbff39174d8852eaf4d5a08f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd588e630f3cec7b3f76fc7198c1da0') in 0.008982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.041389 seconds.
+  path: Assets/Castle Smasher Sources/menu
+  artifactKey: Guid(010ff1ae70d515a4cb1673dbadd388b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/menu using Guid(010ff1ae70d515a4cb1673dbadd388b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4a1bef9a63796182ca116d6719852d') in 0.007119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014841 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/SmallBlackPlayButton.prefab
+  artifactKey: Guid(5e2ddb081cddd2643b6d8a24ebd068ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/SmallBlackPlayButton.prefab using Guid(5e2ddb081cddd2643b6d8a24ebd068ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09bd94d5a72de98e85eb71e28c831fa') in 0.017956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021454 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab
+  artifactKey: Guid(8b8c8cc6774fb074cb9139cc631b108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/SlideDust.prefab using Guid(8b8c8cc6774fb074cb9139cc631b108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4239ba866ded72ee4c3a8bf64ed6bee1') in 0.037219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise/NoiseIn.anim
+  artifactKey: Guid(2f784f4169c7ea54492d85bf48c1219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise/NoiseIn.anim using Guid(2f784f4169c7ea54492d85bf48c1219f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d3c53e21cbca2ed20ba0d306a0df59') in 0.009572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003268 seconds.
+  path: Assets/Sources/Sprites/Portrait.aseprite
+  artifactKey: Guid(42bfc7a10dfa58e4bab52341672ad563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Sprites/Portrait.aseprite using Guid(42bfc7a10dfa58e4bab52341672ad563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f3f401237b2c060fb5bc66c83bd744') in 0.037756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sources/Animation/HeroControllerForCS.controller
+  artifactKey: Guid(c2d356039a43b644e9edc7d336fe2167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/HeroControllerForCS.controller using Guid(c2d356039a43b644e9edc7d336fe2167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b252926a4e252fb9306a32ca70fa90c1') in 0.020370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Castle Smasher Sources/stages
+  artifactKey: Guid(95399be24a0d0dd458d4cfb6fe479d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/stages using Guid(95399be24a0d0dd458d4cfb6fe479d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4bf55ccdd4757bbdfac547e5aa82bc') in 0.007912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047264 seconds.
+  path: Assets/EasyTransitions/Transitions/Fade/FadeOUT.controller
+  artifactKey: Guid(0ef0d011032ca1e4d9ed21b946fa1f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Fade/FadeOUT.controller using Guid(0ef0d011032ca1e4d9ed21b946fa1f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd078346f48dba3a2f2f0977959b954f6') in 0.011535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.036720 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridOUT.prefab
+  artifactKey: Guid(ead20355430ea0d478955e636e5a7caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridOUT.prefab using Guid(ead20355430ea0d478955e636e5a7caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4d64a576ff25e46496dad17aad183d') in 0.014795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007957 seconds.
+  path: Assets/EasyTransitions/Transitions/Fade/FadeIN.controller
+  artifactKey: Guid(bfa05bea11a48d541a7e30aa9a305083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Fade/FadeIN.controller using Guid(bfa05bea11a48d541a7e30aa9a305083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05527f97e243c14b93a263c53b82d6c3') in 0.009954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005199 seconds.
+  path: Assets/Scripts/CharSelect.cs
+  artifactKey: Guid(9a672b6086fa6ee4f8f49e23fac54e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharSelect.cs using Guid(9a672b6086fa6ee4f8f49e23fac54e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e03ee41dd220971cf38d6725cba468c') in 0.007080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scripts/SetDataManager.cs
+  artifactKey: Guid(634da104da902374ab33c6182a71c905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SetDataManager.cs using Guid(634da104da902374ab33c6182a71c905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c69099d8389ebcd0dc6f198ded155c') in 0.007562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006315 seconds.
+  path: Assets/Sources/Animation/FW_Hit.anim
+  artifactKey: Guid(dac67078407c3e0439d9546c26b2e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/FW_Hit.anim using Guid(dac67078407c3e0439d9546c26b2e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9652fdc616c7d0ff2d1cee9f90df3571') in 0.010178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sources/Animation/FW_Jump.anim
+  artifactKey: Guid(9053832571d8f494cab2a0306ca087ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/FW_Jump.anim using Guid(9053832571d8f494cab2a0306ca087ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6343a2d9ddfe0851910865d57e9660') in 0.010234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020131 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(9)
+  artifactKey: Guid(477f3c7e0ee750348b4728c203592166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(9) using Guid(477f3c7e0ee750348b4728c203592166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c4b5576df564ebd26e0de9ca1e6869') in 0.005542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackQuitButton/BlackQuitButton.controller
+  artifactKey: Guid(1a938b7e862a85849b0f745eb0bb9f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackQuitButton/BlackQuitButton.controller using Guid(1a938b7e862a85849b0f745eb0bb9f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd2145e877896af0f0d9c40b5abb501') in 0.012361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009291 seconds.
+  path: Assets/Sources/Animation/HitEff1.anim
+  artifactKey: Guid(991e9c3d4fff5e94dbb40e002da15b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/HitEff1.anim using Guid(991e9c3d4fff5e94dbb40e002da15b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f38874df4f47d7dbe966cd76b70b43c') in 0.008196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040661 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalBlackButton.prefab
+  artifactKey: Guid(19ac16e5dbd185b43b567646ae5fd86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalBlackButton.prefab using Guid(19ac16e5dbd185b43b567646ae5fd86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298d86469d44aa06e520e2111b8b6d46') in 0.020066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Yellow.prefab
+  artifactKey: Guid(3e14bf7b39e2c2940a826eb72e6b8043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Yellow.prefab using Guid(3e14bf7b39e2c2940a826eb72e6b8043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e8a7f6c54a5c780a35a8d36dbca850') in 0.099534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackContinueButton/BlackContinueButton.controller
+  artifactKey: Guid(502fad237d5f99c47a443bf6743d52ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackContinueButton/BlackContinueButton.controller using Guid(502fad237d5f99c47a443bf6743d52ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b71b5abdbcd2c006e5966df66a88e06') in 0.015082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011672 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainIn.anim
+  artifactKey: Guid(a975bf9d4ce2926489dac5e43a84b6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainIn.anim using Guid(a975bf9d4ce2926489dac5e43a84b6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef2043781c38ae06a1a91682a3332bc') in 0.009402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001484 seconds.
+  path: Assets/EasyTransitions/Prefabs/TransitionTemplate.prefab
+  artifactKey: Guid(616d511151a6c554caddf1c754e4f91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Prefabs/TransitionTemplate.prefab using Guid(616d511151a6c554caddf1c754e4f91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488c24fd5015f6fd8c505f397911408e') in 0.017420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035067 seconds.
+  path: Assets/EasyTransitions/Transitions/HorizontalCurtain
+  artifactKey: Guid(f9460c00c6ed62447a0b97e00013dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/HorizontalCurtain using Guid(f9460c00c6ed62447a0b97e00013dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ef88aff2e555fd3bf8cfb59ece9ab9') in 0.006579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003630 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleOUT.prefab
+  artifactKey: Guid(dbd6ccf66a0b18646bf1a7593ccd0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleOUT.prefab using Guid(dbd6ccf66a0b18646bf1a7593ccd0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95d16ac6d072557523746a7896926d3') in 0.015460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020346 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe
+  artifactKey: Guid(dfdfe8cb55f708949a147cddbd50581a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe using Guid(dfdfe8cb55f708949a147cddbd50581a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbbe7e9754a3539808463293eb3386b') in 0.006273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Scenes/Main-Menu-Example.unity
+  artifactKey: Guid(590f605fed1463043828134c464ad21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Scenes/Main-Menu-Example.unity using Guid(590f605fed1463043828134c464ad21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e978f6c8383772aab85b30ab325612d7') in 0.007751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062677 seconds.
+  path: Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs
+  artifactKey: Guid(4e3fab4f60695b14c9a85e1b2c51ecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/ColorSwap/ColorSwap_HeroKnight.cs using Guid(4e3fab4f60695b14c9a85e1b2c51ecaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a43b3b106816181d3713d315ea248e0') in 0.009013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackQuitButton
+  artifactKey: Guid(435eec046e7a543489985fa0f40aa0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackQuitButton using Guid(435eec046e7a543489985fa0f40aa0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438529825d55da762d516f722e035273') in 0.006913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004294 seconds.
+  path: Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashIn.anim
+  artifactKey: Guid(7b93923329946c649bf20ad6cfa8c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashIn.anim using Guid(7b93923329946c649bf20ad6cfa8c4a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b17cbcce6e441fcc8777f0be915f95') in 0.009854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018848 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise
+  artifactKey: Guid(fcd92ea782fc4f645afbc78e30613f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise using Guid(fcd92ea782fc4f645afbc78e30613f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522a3dff1606013189b91c90df569e3d') in 0.006361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/EasyTransitions/Transitions/LinearWipe
+  artifactKey: Guid(9643e53cb42e7ee4dab3a722b1fa7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/LinearWipe using Guid(9643e53cb42e7ee4dab3a722b1fa7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526e5992af00cae3e1e742455a640e35') in 0.008485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016082 seconds.
+  path: Assets/EasyTransitions/Transitions/LinearWipe/WipeOUT.controller
+  artifactKey: Guid(45bd50fee52038e4196e87a37a23f343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/LinearWipe/WipeOUT.controller using Guid(45bd50fee52038e4196e87a37a23f343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32086266ec25768a32d30c1d2194f52') in 0.011330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeOUT.controller
+  artifactKey: Guid(43c24a4f1c672964ead207a65ccb41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeOUT.controller using Guid(43c24a4f1c672964ead207a65ccb41a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f246d3f7d5547377c6da26ba48bc52') in 0.009411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005623 seconds.
+  path: Assets/Sources/Animation/FW_Atk3.anim
+  artifactKey: Guid(3fac7cda015949a44a80b9ef4d081fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/FW_Atk3.anim using Guid(3fac7cda015949a44a80b9ef4d081fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad63c797ce226d89f49ec4ff3e55963') in 0.008592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001666 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalRedButton.prefab
+  artifactKey: Guid(2f74ecb441300fa468c20abcf70c6599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalRedButton.prefab using Guid(2f74ecb441300fa468c20abcf70c6599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09afe9a769e71f38faf64ffa6b4ae98') in 0.014912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(2)
+  artifactKey: Guid(f44b12081591bc4408a9aebef1af88c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(2) using Guid(f44b12081591bc4408a9aebef1af88c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092f560ddbddf6caa77f72c8bf105c8d') in 0.007555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016486 seconds.
+  path: Assets/EasyTransitions/Transitions/HorizontalCurtain/HorizontalCurtainIN.prefab
+  artifactKey: Guid(6910b14c2f212a24b862cafe64dd2b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/HorizontalCurtain/HorizontalCurtainIN.prefab using Guid(6910b14c2f212a24b862cafe64dd2b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edef3984fc3cc2880db81473b55bd7e5') in 0.013527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002087 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(499767fa280e68e4aad6a37251ca839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(499767fa280e68e4aad6a37251ca839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4292532ebf530aca8bb3430cc9386e50') in 0.007366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001424 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalGreenButton.prefab
+  artifactKey: Guid(44373c1366e91194fbd516b802b0337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalGreenButton.prefab using Guid(44373c1366e91194fbd516b802b0337f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7925ae8841f27dbc1cdd4c3dc06913d5') in 0.015655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001324 seconds.
+  path: Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridOUT.prefab
+  artifactKey: Guid(618da791ac68cc9428142a5378a62f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridOUT.prefab using Guid(618da791ac68cc9428142a5378a62f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5a428f4c02d3ef84d73dbabaf30b69') in 0.015954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(11)
+  artifactKey: Guid(2dd94a5d1ddf6b64b83b9f8a14e64ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(11) using Guid(2dd94a5d1ddf6b64b83b9f8a14e64ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3c35eb57a46442d5199cd2baa1112c') in 0.007698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise/NoiseIN.prefab
+  artifactKey: Guid(969dd4df10bff1542827006be3cb2281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise/NoiseIN.prefab using Guid(969dd4df10bff1542827006be3cb2281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff16e457bb12811b7a5a3f078808523b') in 0.015824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab
+  artifactKey: Guid(a4b4a6d32bcb19248a754d6602ffc7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/HeroKnight.prefab using Guid(a4b4a6d32bcb19248a754d6602ffc7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcba2e9225788b9457b4ebd9167d26d3') in 0.076772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009675 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainOUT.controller
+  artifactKey: Guid(22cc5b27f43f8c240a3c3a48429c6ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainOUT.controller using Guid(22cc5b27f43f8c240a3c3a48429c6ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0035991ec588e6dfd72bc6544ed53da5') in 0.012331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042147 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons/BlackPlayButton.prefab
+  artifactKey: Guid(1c0423ae6e6c0cd4ea2b74d5ac0ca11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons/BlackPlayButton.prefab using Guid(1c0423ae6e6c0cd4ea2b74d5ac0ca11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c738b50f3496d32eeeb4afcaed46a6e7') in 0.014253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011822 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainIN.controller
+  artifactKey: Guid(4f2f1933ed295b64faf784db3dd0ff11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainIN.controller using Guid(4f2f1933ed295b64faf784db3dd0ff11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bd3a4c4989f86968ee166f0c2dc78b') in 0.013780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031170 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise/NoiseIN.controller
+  artifactKey: Guid(b893ad72f7ba4d346a8a18226a07c458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise/NoiseIN.controller using Guid(b893ad72f7ba4d346a8a18226a07c458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0dd3c14b61454c058545262f3358bf') in 0.009718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006989 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons/BlackQuitButton.prefab
+  artifactKey: Guid(4b7807c5c47345a4b82698b8bcdd3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons/BlackQuitButton.prefab using Guid(4b7807c5c47345a4b82698b8bcdd3334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe6d5e7170efc44508bce0dab6f2e29') in 0.015140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013957 seconds.
+  path: Assets/EasyTransitions/Transitions/LinearWipe/WipeIN.controller
+  artifactKey: Guid(5ee93b00112a628499424557b17f95a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/LinearWipe/WipeIN.controller using Guid(5ee93b00112a628499424557b17f95a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c55797b14472b66de3ea722e32984f') in 0.009639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise/NoiseOUT.controller
+  artifactKey: Guid(9e3edbb038fb6664c83dd5063d97ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise/NoiseOUT.controller using Guid(9e3edbb038fb6664c83dd5063d97ce4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f035f0ffff0e4963a0ca5db4f5a0d43') in 0.011064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044744 seconds.
+  path: Assets/Scripts/In-GameSet/Player/InGameStart.cs
+  artifactKey: Guid(02dbf9b1107ac3a4d81ab82c56d1ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In-GameSet/Player/InGameStart.cs using Guid(02dbf9b1107ac3a4d81ab82c56d1ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42dc3542b2afde03b238ade337fa55e') in 0.008836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeIn.anim
+  artifactKey: Guid(2abe3315239a38649be92f2d5ddcd4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeIn.anim using Guid(2abe3315239a38649be92f2d5ddcd4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f618e24db0a260e99b3702add00d65a1') in 0.009653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012107 seconds.
+  path: Assets/Sources/Sprites/TitleTemplate.aseprite
+  artifactKey: Guid(31388d4c3dddc774c97855387c68b5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Sprites/TitleTemplate.aseprite using Guid(31388d4c3dddc774c97855387c68b5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea8fc497a46e4dba291860d98448d75') in 0.006665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009682 seconds.
+  path: Assets/EasyTransitions/Transitions/CircleWipe
+  artifactKey: Guid(f2b440df11fbfcf4dbda00121f77bc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/CircleWipe using Guid(f2b440df11fbfcf4dbda00121f77bc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd359a6843f5f6d8278c3675ffa830ac') in 0.006000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004211 seconds.
+  path: Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridIN.prefab
+  artifactKey: Guid(8b5b1ec84b4e39649a0e090d37f698ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridIN.prefab using Guid(8b5b1ec84b4e39649a0e090d37f698ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66acadc4bcd3df959834b800ff802632') in 0.012793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013612 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush/BrushOUT.controller
+  artifactKey: Guid(c28b14e703b79bf499f8151b6752aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush/BrushOUT.controller using Guid(c28b14e703b79bf499f8151b6752aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2963bdee79e975b2972774c8f9683c44') in 0.008119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019947 seconds.
+  path: Assets/EasyTransitions/Prefabs
+  artifactKey: Guid(f60a2d09024be6e43bb8edf9644a4abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Prefabs using Guid(f60a2d09024be6e43bb8edf9644a4abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f67e15c5664b9d6788dbf3bcd7d5599') in 0.008939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scripts/In-GameSet/Player/ReplayGame.cs
+  artifactKey: Guid(01fdf9d91c82a5448939b05636028911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In-GameSet/Player/ReplayGame.cs using Guid(01fdf9d91c82a5448939b05636028911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd213fb9c07e35eb9ab037d212792a9b4') in 0.010009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/EasyTransitions/Materials/TransitionUIMultiplyColor.mat
+  artifactKey: Guid(53171468e32441749b007c64337cd3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Materials/TransitionUIMultiplyColor.mat using Guid(53171468e32441749b007c64337cd3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35d2418b742b2151bc0fb737c1fb441') in 0.071225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021227 seconds.
+  path: Assets/EasyTransitions/Transitions/Fade/FadeOUT.prefab
+  artifactKey: Guid(04918ee4efcad774e92717c26d955df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Fade/FadeOUT.prefab using Guid(04918ee4efcad774e92717c26d955df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528a29d98a0db0affb98c2d175258258') in 0.013276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016729 seconds.
+  path: Assets/Hero Knight - Pixel Art/Environment
+  artifactKey: Guid(b486a59b54cc7224c9e1724a1202e532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Environment using Guid(b486a59b54cc7224c9e1724a1202e532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b126851f13ec92236558ca42b1e666e6') in 0.007466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridOUT.controller
+  artifactKey: Guid(4174b37548937094a8a9c0d3da2713f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridOUT.controller using Guid(4174b37548937094a8a9c0d3da2713f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bae4c91fa7dae2ba7b9c2848997a1e') in 0.009172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020238 seconds.
+  path: Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab
+  artifactKey: Guid(2f7eeaf41636b0f4f8ca52ea6858fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Demo/HeroKnight_Green.prefab using Guid(2f7eeaf41636b0f4f8ca52ea6858fd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d3ec2512841b1dc1ab73c915d7abff') in 0.075190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/EasyTransitions/Shaders
+  artifactKey: Guid(8327e80e2190b824196f0d5f3226a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Shaders using Guid(8327e80e2190b824196f0d5f3226a624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6a6b2b1809e75e7e8a113361a25a8e') in 0.007150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004106 seconds.
+  path: Assets/EasyTransitions/Transitions/HorizontalCurtain/HorizontalCurtainOUT.controller
+  artifactKey: Guid(9439e0c237fb78041ae937326a070f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/HorizontalCurtain/HorizontalCurtainOUT.controller using Guid(9439e0c237fb78041ae937326a070f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f089e6aac4a415005785fef90953c38d') in 0.010197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004638 seconds.
+  path: Assets/Fantasy Warrior/Fantasy Warrior/License.txt
+  artifactKey: Guid(2885539518945b142b6ceaa4d9b5792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Warrior/Fantasy Warrior/License.txt using Guid(2885539518945b142b6ceaa4d9b5792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866e7714f3f15a7ab516f36e6b4fe92a') in 0.019780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001711 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/SmallBlackSoundButton.prefab
+  artifactKey: Guid(e8aebf145e575cb4f9a1b06bfff37333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/SmallBlackSoundButton.prefab using Guid(e8aebf145e575cb4f9a1b06bfff37333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697d9b455c011b5eb56807106e51a8bb') in 0.017048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009522 seconds.
+  path: Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeIN.prefab
+  artifactKey: Guid(ec9329cc0794b7b4ba342094dbe2e150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeIN.prefab using Guid(ec9329cc0794b7b4ba342094dbe2e150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c499c48471758db1b09f3949dc3d3474') in 0.014823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043223 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIN.controller
+  artifactKey: Guid(ec785bc928c130a46bd6bb83a8366252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIN.controller using Guid(ec785bc928c130a46bd6bb83a8366252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df0f981183d63197f15f3c98530d7c0') in 0.012470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023138 seconds.
+  path: Assets/EasyTransitions/Transitions/CircleWipe/CircleOut.anim
+  artifactKey: Guid(e26925c0f0bb7d74a8cd74b74a6e6133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/CircleWipe/CircleOut.anim using Guid(e26925c0f0bb7d74a8cd74b74a6e6133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74504aa7db253ff047cbc2f9939a47b9') in 0.008859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons
+  artifactKey: Guid(5878866b15d82d84c8d99cebfda7a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons using Guid(5878866b15d82d84c8d99cebfda7a26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f01a4eee5515f0f8fd12a230b21bf5') in 0.008198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004119 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalOrangeButton.prefab
+  artifactKey: Guid(a98e38a09ea5a684fbe07e70cd65fa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/VerticalButtons/VerticalOrangeButton.prefab using Guid(a98e38a09ea5a684fbe07e70cd65fa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d1ee6270ce4fcba12e05a2ae6a316f') in 0.020108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007934 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackPlayButton/BlackPlayButton.controller
+  artifactKey: Guid(bd4139c8875696e4087f807faf783d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackPlayButton/BlackPlayButton.controller using Guid(bd4139c8875696e4087f807faf783d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c851a4d3de91805e3aeb4ca91237a731') in 0.011439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EasyTransitions/Transitions/Fade/FadeIn.anim
+  artifactKey: Guid(bc76d2821fb4ce4408b5340767a71c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Fade/FadeIn.anim using Guid(bc76d2821fb4ce4408b5340767a71c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccd4d8f97ffbee3b47aa7585b4c346f') in 0.012099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018079 seconds.
+  path: Assets/Scripts/In-GameSet/Player/AISet.cs
+  artifactKey: Guid(f82e4eda72be18e419e86959bd95a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In-GameSet/Player/AISet.cs using Guid(f82e4eda72be18e419e86959bd95a556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dc453f29f421c871acadc1ed2a029a') in 0.007797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001648 seconds.
+  path: Assets/EasyTransitions/Transitions/LinearWipe/WipeOUT.prefab
+  artifactKey: Guid(d777d67ce4965e9489816615dc6fddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/LinearWipe/WipeOUT.prefab using Guid(d777d67ce4965e9489816615dc6fddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdd5248189e9fc66c769cdfd3bf0ba5') in 0.013326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039180 seconds.
+  path: Assets/Castle Smasher Sources/setting.txt
+  artifactKey: Guid(10c7bba7b36d74149acc5de8f89d3653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/setting.txt using Guid(10c7bba7b36d74149acc5de8f89d3653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896d427fca69b0d37b97fe399a90beed') in 0.009224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015633 seconds.
+  path: Assets/Castle Smasher Sources/stages/stage1/null.ogg
+  artifactKey: Guid(c0bc57820b84b8d4da1d63ec0f843d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/stages/stage1/null.ogg using Guid(c0bc57820b84b8d4da1d63ec0f843d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbfc69567931b97a9d9a27cd90bd7b9') in 0.027291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001226 seconds.
+  path: Assets/Castle Smasher Sources/stages/stage1/stage.txt
+  artifactKey: Guid(2caf6badd92a818439a486f4249ccdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/stages/stage1/stage.txt using Guid(2caf6badd92a818439a486f4249ccdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa0951b85b80af51b2da35bb0ae1179') in 0.008590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043954 seconds.
+  path: Assets/Castle Smasher Sources/screen/lifebar.txt
+  artifactKey: Guid(82b1c9553e723024cafebd2bef7b77be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/screen/lifebar.txt using Guid(82b1c9553e723024cafebd2bef7b77be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b4c504a182d4e2a24be70c61569232') in 0.008127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sources/Animation/FW_Death.anim
+  artifactKey: Guid(104280e3f67186e4dbc6c493a59c5d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/FW_Death.anim using Guid(104280e3f67186e4dbc6c493a59c5d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc8679e3168d22a389cc1f87d794c44') in 0.008692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001592 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush/BrushOut.anim
+  artifactKey: Guid(67d2a80422bcd2648a2c6a1e9820ad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush/BrushOut.anim using Guid(67d2a80422bcd2648a2c6a1e9820ad6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af038707e08d487614c134f2299c35d') in 0.010171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim
+  artifactKey: Guid(c42aa71ad221ea349a7ee113bb662657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hero Knight - Pixel Art/Animations/HeroKnight_Attack3.anim using Guid(c42aa71ad221ea349a7ee113bb662657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9506890a9a0141c25d5da6a523217d5') in 0.008517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038929 seconds.
+  path: Assets/EasyTransitions/Transitions/Fade/FadeIN.prefab
+  artifactKey: Guid(d8bb38ff38a790d4eb099fdb40036a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Fade/FadeIN.prefab using Guid(d8bb38ff38a790d4eb099fdb40036a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e01a1004de4e0b1a635cf680938dd4') in 0.013855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush
+  artifactKey: Guid(3b945b0a3a62e104293a65370101aff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush using Guid(3b945b0a3a62e104293a65370101aff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce346c7200fcee07d949975ecc980b52') in 0.007765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017727 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleOut.anim
+  artifactKey: Guid(ac0fdc2297018ac4bbc07e3a3f287058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleOut.anim using Guid(ac0fdc2297018ac4bbc07e3a3f287058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7608468baed0fc86e6b9345a470faa47') in 0.010124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008001 seconds.
+  path: Assets/Scripts/In-GameSet/Player/LockAnim.cs
+  artifactKey: Guid(dae2f2fbb5b4b034e845ff0bbb11d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/In-GameSet/Player/LockAnim.cs using Guid(dae2f2fbb5b4b034e845ff0bbb11d627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485b8f6c9752b5efa1a1a5e9a37f9010') in 0.006796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020606 seconds.
+  path: Assets/EasyTransitions/Transitions/CircleWipe/CircleOUT.prefab
+  artifactKey: Guid(82a04d1e6894c5c49a2653d25abde114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/CircleWipe/CircleOUT.prefab using Guid(82a04d1e6894c5c49a2653d25abde114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4248746dbf7d68cd8812a2cf419bd3') in 0.014586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006737 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(6)
+  artifactKey: Guid(09df853f294f598468ef59faf5cf1313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(6) using Guid(09df853f294f598468ef59faf5cf1313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac9e5863241bacd4349608a40545d12') in 0.008338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024870 seconds.
+  path: Assets/Castle Smasher Sources/chars/testy -(10)
+  artifactKey: Guid(8497b91c33d1b8f46b498d1d442c1bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/chars/testy -(10) using Guid(8497b91c33d1b8f46b498d1d442c1bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4421a43df3f98b1d2c3597a1ed038c85') in 0.006686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sources/Sprites/icon.aseprite
+  artifactKey: Guid(c4a083a8571dffe40889ce0dfb34f0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Sprites/icon.aseprite using Guid(c4a083a8571dffe40889ce0dfb34f0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53933b1f45f6c0704589e4a82948616c') in 0.009160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/EasyTransitions/Materials
+  artifactKey: Guid(14c74e5b4386b1d4993db6651c285107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Materials using Guid(14c74e5b4386b1d4993db6651c285107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788d02260c3351ae342ed2d2b96c049c') in 0.007769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007253 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/UpBlackButton.prefab
+  artifactKey: Guid(7841b45ffe1a21446a4f041cdae97841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/UpBlackButton.prefab using Guid(7841b45ffe1a21446a4f041cdae97841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e9f212651a87074bec81ad178cdb14') in 0.020386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainIN.prefab
+  artifactKey: Guid(0c02d8d393a528746a5438defdb57524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainIN.prefab using Guid(0c02d8d393a528746a5438defdb57524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e54c013c6b75b6ddb430948070d9319') in 0.014454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025888 seconds.
+  path: Assets/EasyTransitions/Editor/TransitionSettingsEditor.cs
+  artifactKey: Guid(c60f4a1703f193542b97665edbd207a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Editor/TransitionSettingsEditor.cs using Guid(c60f4a1703f193542b97665edbd207a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8104384afd2d7175e539666db6ca9e5') in 0.007988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackOptionsButton
+  artifactKey: Guid(92082d861c3a9c748b4d01335cc31d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Animations/BlackOptionsButton using Guid(92082d861c3a9c748b4d01335cc31d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cb0af106d52d05bca88ef0b91122ea') in 0.006686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001097 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/RightBlackButton.prefab
+  artifactKey: Guid(d20ea113b1db3fc40892e3e6419edb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/RightBlackButton.prefab using Guid(d20ea113b1db3fc40892e3e6419edb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ce80cc9668f8f33877a411e4deaf59') in 0.014010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010635 seconds.
+  path: Assets/Scenes/Battle.unity
+  artifactKey: Guid(4113338287dd05242ac8485e28b5fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Battle.unity using Guid(4113338287dd05242ac8485e28b5fb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8e5d88fc3a0cd0f76783b4430362be') in 0.006625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/EasyTransitions/Transitions
+  artifactKey: Guid(09cfdc466dfaf6c4e8018ec998d37f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions using Guid(09cfdc466dfaf6c4e8018ec998d37f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7443f00f87d98861d22df263c3faf781') in 0.007480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021861 seconds.
+  path: Assets/Castle Smasher Sources/stages/stage2
+  artifactKey: Guid(ae97aac5361468e4faf182cf6a59e173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/stages/stage2 using Guid(ae97aac5361468e4faf182cf6a59e173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd6f06196ec951c5645e7ba1357d729') in 0.006741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048143 seconds.
+  path: Assets/Sources/Sprites/MenuBGTemplate.aseprite
+  artifactKey: Guid(f6cb303331ad70a48ab32f0b0744939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Sprites/MenuBGTemplate.aseprite using Guid(f6cb303331ad70a48ab32f0b0744939e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186f598762d64b2e3e60cfac2e5d48c4') in 0.008912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010432 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons/BlackContinueButton.prefab
+  artifactKey: Guid(63d7c69aa20338a47bb86bb24bbb8107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/HorizontalButtons/BlackContinueButton.prefab using Guid(63d7c69aa20338a47bb86bb24bbb8107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec320359048c60c2bea47c67f1bc1d9') in 0.014218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010204 seconds.
+  path: Assets/Sources/Sprites/MenuTemplate.aseprite
+  artifactKey: Guid(f2990d258f529d4499c72302ae58787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Sprites/MenuTemplate.aseprite using Guid(f2990d258f529d4499c72302ae58787a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326e4230b3e4ce18cd444cc80b4777b5') in 0.008949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Castle Smasher Sources/screen
+  artifactKey: Guid(470ee7ec0bdf83e4aa0ab792b0160b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Castle Smasher Sources/screen using Guid(470ee7ec0bdf83e4aa0ab792b0160b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84068e967d87d58ccf973461f8cb6ecf') in 0.007213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/EasyTransitions/Transitions/Fade/FadeOut.anim
+  artifactKey: Guid(39eea80e3fe834d45b05d9082dc77790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Fade/FadeOut.anim using Guid(39eea80e3fe834d45b05d9082dc77790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe0e755ebfa84b2120212e4d025b28e') in 0.009289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005294 seconds.
+  path: Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/PauseBlackButton.prefab
+  artifactKey: Guid(8eadad2b1f6f4cc4897ffc7ab66ca0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OArielG/2DSimpleUIPack/Examples/Prefabs/SmallButtons/PauseBlackButton.prefab using Guid(8eadad2b1f6f4cc4897ffc7ab66ca0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c595e80b30dc09d807b199539d4ca7d') in 0.014674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush/BrushIN.prefab
+  artifactKey: Guid(ba56f51867b074f42acabcd86ba13273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush/BrushIN.prefab using Guid(ba56f51867b074f42acabcd86ba13273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c563ec2eaf409a992316560a643919fe') in 0.013429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EasyTransitions/Transitions/LinearWipe/WipeOut.anim
+  artifactKey: Guid(3769ea0ccd9d7dc47b4c8cbe9cf67f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/LinearWipe/WipeOut.anim using Guid(3769ea0ccd9d7dc47b4c8cbe9cf67f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93ad2e5891aaa926d9383d6afd1cec6') in 0.010087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001151 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush/BrushIN.controller
+  artifactKey: Guid(71e7931952c24894d966e0eeb094d7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush/BrushIN.controller using Guid(71e7931952c24894d966e0eeb094d7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3c9f6828e9278fe46f278f4d11dc98') in 0.011106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029287 seconds.
+  path: Assets/Sources/Animation/FW_Atk1.anim
+  artifactKey: Guid(32b723262c406f342a9e1dcbbe8d3bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/FW_Atk1.anim using Guid(32b723262c406f342a9e1dcbbe8d3bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9061f5ec4433aaa40b0d76e538d8698') in 0.008927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sources/Animation/FW_Animcontroller.controller
+  artifactKey: Guid(f394007a43e7cde4fba89420ae0dc76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sources/Animation/FW_Animcontroller.controller using Guid(f394007a43e7cde4fba89420ae0dc76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0888c0bc19bf69dfb1a745fabd9371c7') in 0.019296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001888 seconds.
+  path: Assets/Scripts/BGMoving.cs
+  artifactKey: Guid(13dcdda8bde14e64db28dcb317633025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BGMoving.cs using Guid(13dcdda8bde14e64db28dcb317633025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ca359b22a1ac59ba35502e8c9061df') in 0.006578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029286 seconds.
+  path: Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridIn.anim
+  artifactKey: Guid(232bc630584159a4296853edcc6b1d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridIn.anim using Guid(232bc630584159a4296853edcc6b1d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd324079f6cdd0fa5cd06ab1bc82fbcb9') in 0.010072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIN.prefab
+  artifactKey: Guid(8d1f4c836b7ea734da04a6e5b6221fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIN.prefab using Guid(8d1f4c836b7ea734da04a6e5b6221fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563df15dfd1bfbe7b252db007128fcc6') in 0.015296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043619 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise/NoiseOUT.prefab
+  artifactKey: Guid(ef4669bd174fed948b0578bce2883331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise/NoiseOUT.prefab using Guid(ef4669bd174fed948b0578bce2883331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea88c83ac9553e2d9c501cf198518d7') in 0.014159 seconds 

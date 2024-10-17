@@ -1,0 +1,2 @@
+[bgmvolume]=100
+[sfxvolume]=100

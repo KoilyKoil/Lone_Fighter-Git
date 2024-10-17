@@ -1,0 +1,13 @@
+#public
+
+#back01
+[image01]=
+[frame01]=
+[depth]=
+[x]=
+[y]=
+[xloop]=
+[yloop]=
+[xspeed]=
+[yspeed]=
+[scale]=

@@ -1,0 +1,29 @@
+메인 글씨 - https://vrtxrry.itch.io/dungeonfont
+메인 배경 - https://szadiart.itch.io/background-desert-mountains
+
+캐릭선택 배경 - https://kobliznik.itch.io/pixel-ui-pack
+캐릭선택 아이콘 테두리 - https://vapxiel.itch.io/pixel-ui-elements-pack-2
+캐릭선택 포트릿 - https://wenrexa.itch.io/kit-nesia2
+스테이지 선택 이미지 - https://mounirtohami.itch.io/pixel-art-gui-elements
+
+VS 화면 배경 - https://kobliznik.itch.io/pixel-ui-pack
+VS 화면 VS 글씨 - https://gossamore.itch.io/clarity
+VS 화면 포트릿 - https://wenrexa.itch.io/kit-nesia2
+VS 화면 폰트 - https://happysmily.itch.io/1800s-pixel-font
+
+스테이지 배경 - https://edermunizz.itch.io/free-pixel-art-forest
+스테이지 바닥 - https://edermunizz.itch.io/free-pixel-art-forest
+스테이지 체력 리소스 - https://sungraphica.itch.io/sci-fi-game-ui-collection-free-version
+스테이지 마나 리소스 - https://sungraphica.itch.io/sci-fi-game-ui-collection-free-version
+스테이지 아이콘 - https://vapxiel.itch.io/pixel-ui-elements-pack-2
+
+승리 포트릿 - https://wenrexa.itch.io/kit-nesia2
+승리 폰트 - https://happysmily.itch.io/1800s-pixel-font
+승리 리플레이 버튼 - https://kobliznik.itch.io/pixel-ui-pack
+승리 메인메뉴 화면 - https://kobliznik.itch.io/pixel-ui-pack
+
+타격 이펙트 - https://pimen.itch.io/battle-vfx-hit-spark
+
+ui사운드 - https://ellr.itch.io/universal-ui-soundpack
+기타 효과음 - https://phoenix1291.itch.io/sound-effects-pack-2
+배경음 - https://oandco.itch.io/loopable-video-game-music
